@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<style>
+html,body{
+    text-align:center;
+    min-width: 260px;
+    color:rgb(37, 37, 37);
+}
+#main{
+    margin:40px auto;
+    padding:40px;
+    border:0 solid;
+    border-radius: 10px;
+    background: rgb(158, 157, 157);
+}
+img{
+    max-width: 70%;
+    display:flex;
+    height: auto;
+    margin: auto;
+}
+#img-div{
+    width: 100%;
+    border:10px solid white;
+    background: white;
+}
+
+ul{
+    max-width: 250px;
+    margin:0 auto;
+    text-align:left;
+}
+li{
+    margin: 10px;
+}
+
+</style>
+<html>
+<div id="main">
+    <h1 id="title">Name</h1>
+    <div>subtitle</div>
+    <div id="img-div">
+        <img id="image" src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2018/einstein.jpg">
+        <div id="img-caption">
+            Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics. His work is also known for its influence on the philosophy of science.
+        </div>
+    </div>
+    <div id="tribute-info">
+        <ul>
+            <h3>Einstein's life timeline:</h3>
+            <li><strong>year-</strong>event</li>
+            <li><strong>year-</strong>event</li>
+            <li><strong>year-</strong>event</li>
+            <li><strong>year-</strong>event</li>
+        </ul>
+        <h3>if you want to read more<a id="tribute-link" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+        click here</a>.</h3>
+    </div>
+</div>
+</html>
